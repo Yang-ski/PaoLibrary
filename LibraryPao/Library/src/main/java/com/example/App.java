@@ -24,7 +24,7 @@ public class App extends Application {
     @Override
     public void start(Stage stage) throws IOException {
         stage.initStyle(StageStyle.DECORATED);
-        scene = new Scene(loadFXML("fxml/initialNavBar"), 640, 480);
+        scene = new Scene(loadFXML("fxml/initialNavBar"), 1200, 800);
         scene.setOnKeyPressed(event -> {
             if (event.getCode() == KeyCode.ESCAPE) {
                 stage.setFullScreen(!stage.isFullScreen());

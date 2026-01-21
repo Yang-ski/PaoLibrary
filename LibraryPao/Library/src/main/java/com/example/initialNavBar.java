@@ -50,7 +50,9 @@ public class initialNavBar {
     @FXML
     void returnBranches(ActionEvent event) {
         try {
-            App.setRoot("fxml/PlaceholderUI");
+            nestedUI.getChildren().clear();
+            AnchorPane branchesPane = FXMLLoader.load(getClass().getResource("/com/example/fxml/nestedBranches.fxml"));
+            nestedUI.getChildren().add(branchesPane);
         } catch (Exception e) {
             e.printStackTrace();
         }

@@ -35,11 +35,11 @@
                            <image>
                               <Image url="@Logo.png" />
                            </image>
-                                 <HBox.margin>
-                                    <Insets left="20.0" />
-                                 </HBox.margin>
+                           <HBox.margin>
+                              <Insets left="20.0" />
+                           </HBox.margin>
                         </ImageView>
-                              <Pane prefHeight="200.0" prefWidth="200.0" HBox.hgrow="ALWAYS" />
+                        <Pane prefHeight="200.0" prefWidth="200.0" HBox.hgrow="ALWAYS" />
                         <Button fx:id="homeButton" mnemonicParsing="false" onAction="#returnHome" styleClass="transparent-button" text="Home">
                            <font>
                               <Font name="Lucida Sans Unicode" size="30.0" />
@@ -55,14 +55,14 @@
                               <Font name="Lucida Sans Unicode" size="30.0" />
                            </font>
                         </Button>
-                              <Pane prefHeight="200.0" prefWidth="200.0" HBox.hgrow="ALWAYS" />
-                        <Button fx:id="loginButton" mnemonicParsing="false" onAction="#returnLogin" styleClass="transparent-button" text="Login">
+                        <Pane prefHeight="200.0" prefWidth="200.0" HBox.hgrow="ALWAYS" />
+                        <Button fx:id="loginButton1" mnemonicParsing="false" onAction="#returnLogin" styleClass="transparent-button" text="Login">
                            <font>
                               <Font name="Lucida Sans Unicode" size="30.0" />
                            </font>
-                                 <HBox.margin>
-                                    <Insets right="20.0" />
-                                 </HBox.margin>
+                           <HBox.margin>
+                              <Insets right="20.0" />
+                           </HBox.margin>
                         </Button>
                      </children>
                   </HBox>
