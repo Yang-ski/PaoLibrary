@@ -16,9 +16,9 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<ScrollPane fitToWidth="true" hbarPolicy="NEVER" prefHeight="1080.0" prefWidth="1920.0" styleClass="hidden-scrollbar" vbarPolicy="NEVER" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.memberNavBarController">
+<ScrollPane fitToWidth="true" hbarPolicy="NEVER" prefWidth="1920.0" styleClass="hidden-scrollbar" vbarPolicy="NEVER" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.memberNavBarController">
    <content>
-      <BorderPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="480.0" minWidth="680.0" prefHeight="1180.0" prefWidth="1920.0" stylesheets="@styles.css">
+      <BorderPane minHeight="1080.0" minWidth="1920.0" prefWidth="1920.0" stylesheets="@styles.css">
    <top>
       <StackPane alignment="TOP_CENTER" prefHeight="200.0" BorderPane.alignment="TOP_CENTER">
          <children>
@@ -90,7 +90,7 @@
       </StackPane>
    </top>
    <center>
-      <StackPane fx:id="nestedUI" prefHeight="150.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+      <StackPane fx:id="nestedUI" minHeight="880.0" BorderPane.alignment="CENTER" />
    </center>
    <bottom>
       <StackPane maxHeight="-Infinity" prefHeight="100.0" styleClass="bottom-navbar" BorderPane.alignment="CENTER">

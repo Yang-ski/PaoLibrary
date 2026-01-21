@@ -37,7 +37,7 @@ public class memberNavBarController {
     @FXML
     public void initialize() {
         try {
-            AnchorPane nestedHome = FXMLLoader.load(getClass().getResource("/com/example/fxml/nestedHome.fxml"));
+            AnchorPane nestedHome = FXMLLoader.load(getClass().getResource("/com/example/fxml/nestedMemberHome.fxml"));
             nestedUI.getChildren().add(nestedHome);
         } catch (IOException e) {
             e.printStackTrace();
@@ -47,7 +47,9 @@ public class memberNavBarController {
     @FXML
     void returnAbout(ActionEvent event) {
         try {
-            App.setRoot("fxml/PlaceholderUI");
+            nestedUI.getChildren().clear();
+            AnchorPane aboutPane = FXMLLoader.load(getClass().getResource("/com/example/fxml/nestedAbout.fxml"));
+            nestedUI.getChildren().add(aboutPane);
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -65,7 +67,9 @@ public class memberNavBarController {
     @FXML
     void returnHome(ActionEvent event) {
         try {
-            App.setRoot("fxml/PlaceholderUI");
+            nestedUI.getChildren().clear();
+            AnchorPane homePane = FXMLLoader.load(getClass().getResource("/com/example/fxml/nestedMemberHome.fxml"));
+            nestedUI.getChildren().add(homePane);
         } catch (Exception e) {
             e.printStackTrace();
         }

@@ -158,3 +158,8 @@
     border-color: transparent !important;
 }
 
+.darkened-image {
+    -fx-opacity: 0.75;
+    -fx-blend-mode: multiply;
+}
+
