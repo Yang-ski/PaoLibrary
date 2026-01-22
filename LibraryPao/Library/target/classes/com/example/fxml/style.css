@@ -1,0 +1,105 @@
+/*Header*/
+.header-background {
+    -fx-background-image: url('Images/Header.png');
+    -fx-background-color:  rgba(0, 0, 0, 0.40);
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: auto;
+    -fx-background-position: center;
+}
+
+.header-Nav-text {
+    -fx-font-family: "Bodoni MT";
+    -fx-font-size: 50px;
+    -fx-font-color: rgba(255,255,255,1);
+}
+
+.logo-image {
+    -fx-background-image: url('Images/Logo.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: auto 40px;
+    -fx-background-position: center;
+}
+
+.upper-header-color {
+    -fx-background-color: rgba(44,59,57,0.80);
+}
+
+.lower-header-color {
+    -fx-background-color: rgba(44,59,57,0.40);
+}
+
+.header-text-format {
+    -fx-background-color: rgba(255,255,255,0);
+    -fx-font-family: "Bodoni MT";
+    -fx-font-size: 20px;
+    -fx-font-color: rgba(255,255,255,1);
+}
+
+/*Login Page*/
+
+.login-Background {
+    -fx-background-image: url('Images/loginImage.jpg');
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: auto;
+    -fx-background-position: center;
+}
+
+.login-Filter {
+    -fx-background-color: rgba(0,0,0,0.40);
+}
+
+.login-logo {
+    -fx-background-image: url('Images/loginLogo.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 300px 75px;
+    -fx-background-position: center;
+}
+
+.login-welcome-text {
+    -fx-font-family: "Bodoni MT";
+    -fx-font-size: 40px;
+    -fx-text-fill: rgba(0,0,0,1);
+    -fx-font-weight: bold;
+}
+
+.login-sub-welcome-text {
+    -fx-font-family: "Bodoni MT";
+    -fx-font-size: 60px;
+    -fx-text-fill: rgba(255,255,255,1);
+}
+
+.credentials-format {
+    -fx-background-color: rgba(255,255,255,1);
+    -fx-background-radius: 5px;
+    -fx-border-radius: 5px;
+    -fx-border-color: rgba(0,0,0,1);
+    -fx-border-width: 0.5px;
+}
+
+.login-button {
+    -fx-background-color: rgba(93,155,121,1);
+    -fx-background-radius: 5px;
+    -fx-border-radius: 5px;
+    -fx-border-color: rgba(0,0,0,1);
+    -fx-border-width: 0.5px;
+    -fx-font-family: "Arial";
+    -fx-font-size: 20px;
+    -fx-text-fill: rgba(255,255,255,1);
+}
+
+.login-header-image {
+    -fx-background-image: url('Images/Header.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: auto;
+    -fx-background-position: center;
+}
+
+.login-header-color {
+    -fx-background-color: rgba(93,155,121,0.40);
+}
+
+.verification-status {
+    -fx-font-family: "Arial";
+    -fx-font-size: 16px;
+    -fx-text-fill: rgba(255,0,0,1);
+}
