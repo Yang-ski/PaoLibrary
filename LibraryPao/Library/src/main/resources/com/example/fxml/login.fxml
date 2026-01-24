@@ -12,7 +12,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="920.0" prefWidth="1920.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="920.0" prefWidth="1920.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.loginController">
    <children>
       <StackPane AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
@@ -44,18 +44,18 @@
                                        <children>
                                           <TextField fx:id="memberIDField" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="80.0" prefWidth="580.0" promptText="MemberID" styleClass="credentials-format">
                                              <font>
-                                                <Font name="Arial" size="16.0" />
+                                                <Font name="Segoe UI" size="16.0" />
                                              </font>
                                           </TextField>
                                           <PasswordField fx:id="passwordField" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="80.0" prefWidth="580.0" promptText="Password" styleClass="credentials-format">
                                              <font>
-                                                <Font name="Arial" size="16.0" />
+                                                <Font name="Segoe UI" size="16.0" />
                                              </font>
                                              <VBox.margin>
                                                 <Insets top="10.0" />
                                              </VBox.margin>
                                           </PasswordField>
-                                          <Text fill="RED" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="verification-status" text="Incorrect ID or Password, please try again.">
+                                          <Text fx:id="verify" fill="RED" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="verification-status" text="Incorrect ID or Password, please try again.">
                                              <VBox.margin>
                                                 <Insets bottom="5.0" top="5.0" />
                                              </VBox.margin>
@@ -75,14 +75,17 @@
                                  </children>
                               </StackPane>
                               <Pane VBox.vgrow="ALWAYS" />
-                              <StackPane>
+                              <StackPane alignment="BOTTOM_CENTER">
                                  <children>
-                                    <Text strokeType="OUTSIDE" strokeWidth="0.0" text="&quot;Copyright © 2026 by Neckhurts University. All rights reserved. Used with/out permission.&quot; ">
+                                    <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="copyright-text" text="&quot;Copyright © 2026 by Neckhurts University. All rights reserved. Used with/out permission.&quot; ">
                                        <StackPane.margin>
-                                          <Insets bottom="10.0" top="10.0" />
+                                          <Insets bottom="20.0" />
                                        </StackPane.margin>
                                     </Text>
                                  </children>
+                                 <VBox.margin>
+                                    <Insets bottom="20.0" />
+                                 </VBox.margin>
                               </StackPane>
                            </children>
                         </VBox>
